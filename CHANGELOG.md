@@ -2,6 +2,10 @@
 
 Every pull request that changes the app adds a section here for its new version. The section becomes the notes of the GitHub Release and shows up in the app's update dialog, so write it for users.
 
+## 0.6.0
+
+- A new setting, **settings → TUI → context line**, hides the line under Claude Code and Codex tabs that shows their model and how full their context is, so every tab takes one row. It is on by default.
+
 ## 0.5.1
 
 - Filter the changes panel by path: click **`⌕`** next to its `×` and type. A piece of a path (`order`) or a pattern like in `.gitignore` (`*.test.js`, `src/api/**`) keeps only the files that match, `!` leaves files out (`!*.snap !*.lock`), and the summary says how many are left (`3 of 31 files`). `Enter` keeps the filter and gives your keys back to the pane; `Esc` clears it. While the field has the keys, click in a pane to type there again, and on the field to come back.
